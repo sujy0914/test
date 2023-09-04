@@ -1,5 +1,5 @@
 week02
--linux command: ls, ls -a, ls -al, pwd, cd .git, cd ..
+-linux command: ls, ls -a, ls -al, pwd, cd .git, cd .., echo "blahblah">>
 -git command
  git init
  git status
@@ -9,3 +9,9 @@ week02
  git config --global --list
  git commit -m "V0"
  git log
+ git checkout hashcode
+ git checkout -
+ git branch -M main
+git remote add origin https://github.com/sujy0914/test.git
+git remote -v
+git push -u origin main
